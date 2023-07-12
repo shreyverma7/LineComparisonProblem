@@ -20,6 +20,14 @@ namespace LineComparisonProblem
             else
                 Console.WriteLine("Line1 is not equal to line2");
 
+            //ComparetO - uc3
+            if (line1.CompareTo(line2) == 0)
+                Console.WriteLine("Both Line are equal");
+            if (line1.CompareTo(line2) > 0)
+                Console.WriteLine("Line1 > Line2");
+            if (line1.CompareTo(line2) < 0)
+                Console.WriteLine("Line1 < Line2");
+
 
 
         }
