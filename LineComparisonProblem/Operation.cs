@@ -15,10 +15,11 @@ namespace LineComparisonProblem
                this.x2 = x2;
                 this.y2 = y2;
         }
-        public void CalculateLength()
+        public double CalculateLength()
         {
             double length = Math.Sqrt(Math.Pow((x2-x1),2) + Math.Pow((y2-y1),2));
             Console.WriteLine(length);
+            return length;
         }
     }
 }
